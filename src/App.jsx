@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Homepage from "./pages_men/component/Homepage";
-import Orderpage from "./pages_men/component/orderpage";
+import Orderpage from "./pages_men/component/Orderpage";
 import Bookingpage from "./pages_men/component/Bookingpage"
 
 function App() {
