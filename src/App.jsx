@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-<<<<<<< HEAD
+
 import Bookingpage from "./pages_lash/Bookingpage.jsx"
 import Homepage from "./pages_lash/Homepage.jsx";
 import Orderpage from "./pages_lash/Orderpage.jsx";
-=======
+
 
 
 function App() {
