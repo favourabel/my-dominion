@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Homepage from "./pages_men/component/Homepage";
-import Orderpage from "./pages_men/component/Orderpage";
-import Bookingpage from "./pages_men/component/Bookingpage"
+import Homepage from "./pages-meet/component/Homepage";
+import Orderpage from "./pages-meet/component/Orderpage";
+import Bookingpage from "./pages-meet/component/Bookingpage"
 
 function App() {
 
