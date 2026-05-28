@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Bookingpage from "./pages_math/Bookingpage.js";
-import HomePage from "./pages_math/Homepage.jsx";
-import Orderpage from "./pages_math/Orderpage.jsx";
+import Bookingpage from "./pages_lash/Bookingpage.jsx"
+import Homepage from "./pages_lash/Homepage.jsx";
+import Orderpage from "./pages_lash/Orderpage.jsx";
 
 function App() {
 
@@ -53,9 +53,9 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={ <HomePage addToCart={addToCart} /> } />
+        <Route path="/" element={ <Homepage addToCart={addToCart} /> } />
 
-        <Route path="/order" element={ <OrderPage cart={cart} /> } />
+        <Route path="/order" element={ <Orderpage cart={cart} /> } />
 
          <Route path="/booking" element={<Bookingpage cart={cart} />}/>
        
