@@ -146,31 +146,30 @@ const Orderpage = ({ cart = [] }) => {
         </div>
 
         {/* GRAND TOTAL */}
-        <div className="w-full sm:w-[650px] bg-orange-500 rounded-[10px] p-[18px] sm:p-[22px] mt-[40px] mr-[60px] text-center items-center shadow-[0px_2px_8px_rgba(255,140,0,0.3)]">
+  <div  className="w-full sm:w-[650px] bg-orange-500 rounded-[10px] p-[18px] sm:p-[22px] mt-[40px] mx-auto text-center shadow-[0px_2px_8px_rgba(255,140,0,0.3)]">
+ <div className="flex justify-center items-center gap-[10px]">
 
-          <div className="flex justify-center items-center">
+    <p className="text-[18px] sm:text-[22px] text-white font-bold">
+      Grand Total
+    </p>
 
-            <p className="text-[18px] sm:text-[22px] text-white font-bold">
-              Grand Total
-            </p>
+    <p className="text-[20px] sm:text-[24px] text-black font-bold">
+      ${grandTotal}
+    </p>
 
-            <p className="text-[20px] sm:text-[24px] text-black font-bold">
-              ${grandTotal}
-            </p>
+  </div>
 
-          </div>
+  {/* ORDER BUTTON */}
+  <button
+    onClick={() => navigate("/booking")}
+    className="w-full bg-black text-white mt-[20px] p-[10px] rounded-[7px] text-[15px] sm:text-[17px] font-bold"
+  >
+    Order Now
+  </button>
 
-          {/* ORDER BUTTON */}
-          <button
-            onClick={() => navigate("/booking")}
-            className="w-full bg-black text-white mt-[20px] p-[10px] rounded-[7px] text-[15px] sm:text-[17px] font-bold"
-          >
-            Order Now
-          </button>
+</div>
 
-        </div>
-
-      </div>
+</div>
 
     </div>
   );

@@ -639,7 +639,7 @@ const scrollToSection = (id) => {
      <img src={sabique}
       className='w-[500px] mt-[7%] rounded-[8px] border-[3px] border-orange-400 ml-[40px] items-center  transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer'/>
      </div>
-             <div className="flex-col md:flex-row">
+             <div className="flex-col md:flex-row items-center">
 
           <p className='text-orange-400 text-[40px] font-bold mt-[10%]'>About Us</p>
 
@@ -675,7 +675,7 @@ const scrollToSection = (id) => {
 
             <div className='flex-col md:flex-row flex justify-center items-center gap-[70px] mb-[10%] mt-[40px]'>
 
-           <div className='flex-col md:flex-row flex gap-[20px]  bg-red-200 shadow-[0px_4px_12px_rgba(255,140,0,0.5)] pt-[50px] pb-[60px] pl-[20px] mt-[40px] pr-[15px] rounded-[12px] transition-all duration-500 hover:bg-blue-300 hover:shadow-[0px_8px_20px_rgba(255,140,0,0.7)] cursor-pointer'>
+           <div className='flex-col md:flex-row flex gap-[20px]  bg-red-200 shadow-[0px_4px_12px_rgba(255,140,0,0.5)] pt-[50px] pb-[60px] pl-[20px] mt-[40px] pr-[15px] rounded-[12px] transition-all duration-500 hover:scale-[1.03]npm hover:shadow-[0px_8px_20px_rgba(255,140,0,0.7)] cursor-pointer'>
 
    <div>
       <img  src={mina} className='w-[200px] h-[200px] rounded-[10px] border-[2px] border-orange-400' />
